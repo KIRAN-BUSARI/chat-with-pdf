@@ -76,7 +76,11 @@ export default function Home() {
               enhancing productivity 100x fold effortlessly.
             </p>
           </div>
-          <Button asChild className="mt-10">
+          <Button
+            asChild
+            className="mt-10 hover:bg-indigo-200 bg-indigo-500 text-white"
+            variant={"outline"}
+          >
             <Link href={"/dashboard"}>Get Started</Link>
           </Button>
         </div>
